@@ -1,0 +1,16 @@
+{
+  "name": "@usd-ui/playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "alexzhang1030 <alexzhang1030@gmail.com> (https://github.com/alexzhang1030)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexzhang1030/usd-ui/issues"
+  },
+  "homepage": "https://github.com/alexzhang1030/usd-ui#readme"
+}
