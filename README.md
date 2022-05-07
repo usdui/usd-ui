@@ -14,3 +14,4 @@ UnStyled UI. Exploring Headless-UI with monorepo ⌛
 - `@usd-ui/style-cli`: for style generate
 - `@usd-ui/vue-components`: Vue components
 - `@usd-ui/default-theme`: default style
+- `@usd-ui/docs`: for docs
