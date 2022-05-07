@@ -1,4 +1,5 @@
-packages/node/*
-packages/web/*
-playground
-docs
+packages:
+  - packages/node/*
+  - packages/web/*
+  - playground
+  - docs
