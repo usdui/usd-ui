@@ -1,16 +1,19 @@
 {
-  "name": "@usd-ui/playground",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "playground",
+  "private": true,
+  "version": "0.0.0",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
   },
-  "keywords": [],
-  "author": "alexzhang1030 <alexzhang1030@gmail.com> (https://github.com/alexzhang1030)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/alexzhang1030/usd-ui/issues"
+  "dependencies": {
+    "vue": "^3.2.25"
   },
-  "homepage": "https://github.com/alexzhang1030/usd-ui#readme"
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.1",
+    "typescript": "^4.5.4",
+    "vite": "^2.9.7",
+    "vue-tsc": "^0.34.7"
+  }
 }
