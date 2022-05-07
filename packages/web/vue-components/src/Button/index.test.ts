@@ -8,5 +8,5 @@ test('button should contain slots', () => {
             default: '你好ya'
         }
     })
-    expect(wrapper.html()).toMatchInlineSnapshot('"<div>你好ya</div>"')
+    expect(wrapper.html()).toMatchInlineSnapshot('"<div class=\\"text-red-500\\">你好ya</div>"')
 });

@@ -5,15 +5,9 @@ export default defineConfig({
     splitting: true,
     sourcemap: true,
     clean: true,
-    emitDeclarationOnly: true,
-    declaration: true,
-    rollup: {
-        emitCJS: true,
-        declaration: true,
-    },
-    target: 'es2018',
+    dts: true,
     format: ['esm'],
-    minify: true,
+    // minify: true,
     esbuildOptions: (options) => {
         options.jsxFactory = 'h'
         options.jsxFragment = 'Fragment'
