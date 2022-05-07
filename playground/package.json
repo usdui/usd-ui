@@ -1,5 +1,5 @@
 {
-  "name": "playground",
+  "name": "@usd-ui/playground",
   "private": true,
   "version": "0.0.0",
   "scripts": {
@@ -8,6 +8,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@usd-ui/vue-components": "workspace:*",
     "vue": "^3.2.25"
   },
   "devDependencies": {
